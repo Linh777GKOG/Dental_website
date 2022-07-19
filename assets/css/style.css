@@ -307,3 +307,20 @@ body {
   overflow: hidden;
   transition: 0.25s var(--cubic-out);
 }
+
+.navbar.active {
+  visibility: visible;
+  max-height: 244px;
+  transition-duration: 0.5s;
+}
+
+.navbar-list > li:not(:last-child) {
+  border-block-end: 1px solid var(--gainsboro_50);
+}
+
+.navbar-link {
+  color: var(--jet);
+  text-transform: uppercase;
+  font-weight: var(--fw-600);
+  padding: 15px;
+}
