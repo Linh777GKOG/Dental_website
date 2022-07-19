@@ -231,3 +231,17 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.header-top,
+.header-bottom .btn {
+  display: none;
+}
+
+.header-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-block: 15px;
+  z-index: 4;
+}
