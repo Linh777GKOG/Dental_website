@@ -35,3 +35,22 @@
 
   --ff-roboto: "Roboto", sans-serif;
   --ff-poppins: "Poppins", sans-serif;
+
+  --fs-1: 4rem;
+  --fs-2: 3.6rem;
+  --fs-3: 3.2rem;
+  --fs-4: 2.4rem;
+  --fs-5: 2.2rem;
+  --fs-6: 1.8rem;
+  --fs-7: 1.6rem;
+
+  --fw-800: 800;
+  --fw-700: 700;
+  --fw-600: 600;
+  --fw-500: 500;
+
+  /**
+   * spacing
+   */
+
+  --section-padding: 120px;
