@@ -134,3 +134,15 @@ ion-icon {
 address {
   font-style: normal;
 }
+
+html {
+  font-family: var(--ff-roboto);
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--sonic-silver);
+  font-size: 1.5rem;
+}
