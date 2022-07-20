@@ -82,6 +82,10 @@
   --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
 }
 
+/*-----------------------------------*\
+  #RESET
+\*-----------------------------------*/
+
 *,
 *::before,
 *::after {
@@ -146,6 +150,10 @@ body {
   color: var(--sonic-silver);
   font-size: 1.5rem;
 }
+
+/*-----------------------------------*\
+  #REUSED STYLE
+\*-----------------------------------*/
 
 .container {
   padding-inline: 25px;
@@ -231,6 +239,10 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+/*-----------------------------------*\
+  #HEDER
+\*-----------------------------------*/
 
 .header-top,
 .header-bottom .btn {
@@ -323,4 +335,29 @@ body {
   text-transform: uppercase;
   font-weight: var(--fw-600);
   padding: 15px;
+}
+
+/*-----------------------------------*\
+  #HERO
+\*-----------------------------------*/
+
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-block-end: calc(var(--section-padding) / 2);
+}
+
+.hero-content {
+  margin-block-end: 50px;
+}
+
+.hero-title {
+  margin-block: 15px 30px;
+}
+
+.hero-text {
+  font-size: var(--fs-6);
+  line-height: 1.45;
+  margin-block-end: 40px;
 }
