@@ -441,3 +441,17 @@ body {
   margin-block-start: 30px;
   padding-inline: 15px;
 }
+
+/*-----------------------------------*\
+  #DOCTOR
+\*-----------------------------------*/
+
+.doctor .section-title {
+  margin-block-end: 50px;
+}
+
+.doctor-card .card-banner {
+  border-radius: var(--radius-4);
+  overflow: hidden;
+  margin-block-end: 25px;
+}
