@@ -455,3 +455,20 @@ body {
   overflow: hidden;
   margin-block-end: 25px;
 }
+
+.doctor-card {
+  padding: 30px;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--radius-4);
+  text-align: center;
+  min-height: 100%;
+}
+
+.doctor-card .card-title {
+  font-size: var(--fs-4);
+  transition: var(--transition);
+}
+
+.doctor-card:is(:hover, :focus-within) .card-title {
+  color: var(--royal-blue-light);
+}
