@@ -382,3 +382,20 @@ body {
 .hero-form .btn {
   width: 100%;
 }
+
+.service-banner {
+  display: none;
+}
+
+.service {
+  padding-block-end: 0;
+}
+
+.service .section-title {
+  margin-block-end: 50px;
+}
+
+.service-list {
+  display: grid;
+  gap: 15px;
+}
